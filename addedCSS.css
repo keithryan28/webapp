@@ -5,9 +5,10 @@
 }
 
 
-#centerLogin{
-	width:400px;
+#centerLogin, #center-tracking{
+	width:40%;
 	margin:0px auto;
+  min-width: 320px;
 }
 
 #postingStatus {
@@ -32,10 +33,7 @@
     border: 1px solid black;
 
 }
-span .ui-btn-inner .ui-btn-corner-all{
 
-  font-size: 200px;
-}
 #startTracking_start, #startTracking_stop{
   font-size: 20px;
   text-align: center;
@@ -46,13 +44,19 @@ span .ui-btn-inner .ui-btn-corner-all{
   display: block;
   margin: 40px;
   background-color: green;
+
 }
 #logo{
-  margin: 0px auto;
+  margin: 20px auto;
   text-align: center;
 }
 #loginForm{
-  width: 50%;
+  width: 30%;
   margin: 0px auto;
-  padding: 0px
+ 
+}
+.ui-hide-label{
+  max-width: 220px;
+  margin: 0px auto;
+
 }
