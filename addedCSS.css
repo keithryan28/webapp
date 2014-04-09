@@ -73,8 +73,8 @@ p#login-text{
 }
 #username, #password{
   border-radius: 0px;
-  border:1px #d1d1d1 solid;
-  background-color: rgba(204,204,204, 0.3);
+/*  border:1px #d1d1d1 solid;
+*/  background-color: rgba(204,204,204, 0.3);
 }
 /*.ui-body-c, .ui-overlay-c, .ui-body-c, .ui-overlay-c {
 color: black;
