@@ -39,7 +39,7 @@
   text-align: center;
   text-decoration: none;
   border: 2px solid grey;
-  border-radius: 5px;
+  border-radius: 0px !important;
   padding: 10px;
   display: block;
   margin: 40px;
@@ -51,12 +51,37 @@
   text-align: center;
 }
 #loginForm{
-  width: 30%;
+  width: 45%;
   margin: 0px auto;
  
 }
-.ui-hide-label{
-  max-width: 220px;
-  margin: 0px auto;
 
+/*scales in the login input fields*/
+.ui-hide-label{
+  max-width: 230px;
+  margin: 0px auto;
+  border-radius: 0px !important;
+  padding: 0px;
 }
+p#login-text{
+  padding: 10px 50px;
+  color: #262626;
+  text-shadow: none;
+  font-family: agency_fb;
+  font-size: 20px;
+  font-weight: bold;
+}
+#username, #password{
+  border-radius: 0px;
+  border:1px #d1d1d1 solid;
+  background-color: rgba(204,204,204, 0.3);
+}
+/*.ui-body-c, .ui-overlay-c, .ui-body-c, .ui-overlay-c {
+color: black;
+text-shadow: none;
+}*/
+@font-face
+{
+font-family: agency_fb;
+src: url(fonts/agency_fb.ttf);
+}  

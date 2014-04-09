@@ -3,6 +3,7 @@
 <head>
 	<title>ExerciseTracker</title>
 	    <link rel="stylesheet" type="text/css" href="addedCSS.css">
+	    
 
 	<script type="text/javascript" src="cordova-1.7.0.js"></script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDD353fOPh-KBUQ-2ekPCg75uxXRn0D9Tk&sensor=false"></script>
@@ -36,22 +37,22 @@
      <div id="centerLogin">
       <div id="logo">
       	<img src="images/logo.png" width="150px" height="150px"/>
-      	<p>Welcome to the CardioPro app. By clicking Track Workout you can record your workouts using the GPS feature on your phone.</p>
+      	<p id="login-text">Welcome to the CardioPro app. By clicking Track Workout you can record your workouts using the GPS feature on your phone.</p>
       </div>   
 
         <form id="loginForm">
         <div data-role="fieldcontain" class="ui-hide-label">
 <!--             <label for="username">Username:</label>
- -->            <input type="text" name="username" id="username" value="" placeholder="Username" />
+ -->            <input type="text" name="username" id="username" value="" data-corners="false" placeholder="Username" />
         </div>
 
         <div data-role="fieldcontain" class="ui-hide-label">
 <!--             <label for="password">Password:</label>
- -->            <input type="password" name="password" id="password" value="" placeholder="Password" />
+ -->            <input type="password" name="password" id="password" value="" data-corners="false" placeholder="Password" />
         </div>
 
         
-        <input type="submit" value="Login" id="submitButton" data-transition="fade">
+        <input type="submit" value="Login" id="submitButton" data-corners="false" data-transition="fade" data-theme="a">
         <a href="#home" data-transition="fade">Login</a>
         <a href="#" target="_blank">Register</a>
         </form>
