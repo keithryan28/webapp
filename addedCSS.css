@@ -85,3 +85,7 @@ text-shadow: none;
 font-family: agency_fb;
 src: url(fonts/agency_fb.ttf);
 }  
+#submitButton{
+  font-family: agency_fb;
+  color: red;
+}
