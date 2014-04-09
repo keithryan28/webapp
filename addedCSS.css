@@ -93,3 +93,5 @@ src: url(fonts/agency_fb.ttf);
   font-size: 23px;
   padding: 1px;
 }
+
+body .ui-body-c, body .ui-overlay-c { text-shadow:0 0 0; }
