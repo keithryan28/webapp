@@ -8,7 +8,8 @@
 #centerLogin, #center-tracking{
 	width:40%;
 	margin:0px auto;
-  min-width: 320px;
+  min-width: 250px;
+  border:1px red solid;
 }
 
 #postingStatus {
@@ -44,6 +45,7 @@
   display: block;
   margin: 40px;
   background-color: green;
+  max-width: 200px;
 
 }
 #logo{
@@ -73,6 +75,7 @@ p#login-text{
 }
 #username, #password{
   border-radius: 0px;
+  height: 30px;
 /*  border:1px #d1d1d1 solid;
 */  background-color: rgba(204,204,204, 0.3);
 }
@@ -85,7 +88,8 @@ text-shadow: none;
 font-family: agency_fb;
 src: url(fonts/agency_fb.ttf);
 }  
-#submitButton{
-  font-family: agency_fb;
-  color: red;
+.ui-btn-text{
+  font-family:agency_fb;
+  font-size: 23px;
+  padding: 1px;
 }
