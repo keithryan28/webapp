@@ -32,20 +32,17 @@
   /*margin: 0px auto;*/
    background-color: rgba(204,204,204, 0.3);
 
-  width: 90px;
-  height: 90px
-
-
-
+  width: 130px;
+  height: 130px
 }
 #startTracking_start{
   background-image: url(images/play.png);
-  margin-left: 30px;
+  margin-left: 0px;
 }
 #startTracking_stop{
   float: right;
    background-image: url(images/stop.png);
-   margin-right: 30px;
+   margin-right: 0px;
 }
 #logo{
   margin: 10px auto;
@@ -99,6 +96,7 @@ body .ui-body-c, body .ui-overlay-c { text-shadow:0 0 0; }
   color: white;
   text-align: center;
   margin-bottom: 70px;
+  font-size: 46px;
 }
 #track_id{
     border-radius: 0px;
@@ -115,3 +113,5 @@ margin: 0px auto;
  #history_tracklist{
   margin: 10px;
  }
+
+ h1#time
