@@ -5,7 +5,7 @@
 }
 
 
-#centerLogin, #center-tracking{
+.centerLogin, #center-tracking{
 	width:40%;
 	margin:0px auto;
   min-width: 250px;
@@ -41,12 +41,23 @@
   text-decoration: none;
   border: 2px solid grey;
   border-radius: 0px !important;
-  padding: 10px;
-  display: block;
-  margin: 40px;
-  background-color: green;
-  max-width: 200px;
+  padding: 0px;
+  display: inline-block;
+  /*margin: 0px auto;*/
+   background-color: rgba(204,204,204, 0.3);
 
+  width: 90px;
+  height: 90px
+
+
+
+}
+#startTracking_start{
+  background-image: url(images/play.png);
+}
+#startTracking_stop{
+  float: right;
+   background-image: url(images/stop.png);
 }
 #logo{
   margin: 10px auto;

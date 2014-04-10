@@ -34,7 +34,7 @@
     </div>
 
     <div data-role="content"> 
-     <div id="centerLogin">
+     <div class="centerLogin">
       <div id="logo">
       	<img src="images/logo.png" width="160px" height="206px" />
       	
@@ -72,9 +72,11 @@
 	
 		<div data-role="navbar">
 			<ul>
-				<li><a href="#home" data-transition="none" data-icon="home">Home</a></li>
 				<li><a href="#startTracking" data-transition="none" data-icon="plus">Track Workout</a></li>
 				<li><a href="#history" data-transition="none" data-icon="star">History</a></li>
+				<li><a href="#home" data-transition="none" data-icon="home">Settings</a></li>
+				
+				
 			</ul>
 		</div>
 	</div>
@@ -98,33 +100,32 @@
 		
 		<div data-role="navbar">
 			<ul>
-				<li><a href="#home" data-transition="none" data-icon="home">Home</a></li>
 				<li><a href="#startTracking" data-transition="none" data-icon="plus">Track Workout</a></li>
 				<li><a href="#history" data-transition="none" data-icon="star">History</a></li>
+				<li><a href="#home" data-transition="none" data-icon="home">Settings</a></li>
+				
+				
 			</ul>
 		</div>
 	</div>
 
 	<div data-role="content">	
 		<p id="startTracking_status"></p>
-		 <div id="center-tracking">	
+		 <div id="centerLogin">	
 			<div data-role="fieldcontain" class="ui-hide-label">
 				<label for="track_id">Track ID/Name:</label>
 				<input type="text" name="track_id" id="track_id" placeholder="Workout ID/Name"/>
 			</div>
 		
 
-		<a href="#" id="startTracking_start"  onclick='startPostingData()' data-theme="a">Start Tracking</a>
-		<a href="#" id="startTracking_stop" onclick='stopPostingData()' data-theme="a">Stop Tracking</a>  
+		<a href="#" id="startTracking_start"  onclick='startPostingData()' data-theme="a"></a>
+		<a href="#" id="startTracking_stop" onclick='stopPostingData()' data-theme="a"></a>  
 		
 				<p id="startTracking_info"></p>
                 
-             <div id="#postingStatus" class="off">
-             space for posting data to
-
-            </div>
+             
         </div>        
-       
+       </div>
 		
 	</div>
 
@@ -139,10 +140,12 @@
         
         <div data-role="navbar">
             <ul>
-                <li><a href="#home" data-transition="none" data-icon="home">Home</a></li>
-                <li><a href="#startTracking" data-transition="none" data-icon="plus">Track Workout</a></li>
-                <li><a href="#history" data-transition="none" data-icon="star">History</a></li>
-            </ul>
+				<li><a href="#startTracking" data-transition="none" data-icon="plus">Track Workout</a></li>
+				<li><a href="#history" data-transition="none" data-icon="star">History</a></li>
+				<li><a href="#home" data-transition="none" data-icon="home">Settings</a></li>
+				
+				
+			</ul>
         </div>
     </div>
 
@@ -165,9 +168,11 @@
 		
 		<div data-role="navbar">
 			<ul>
-				<li><a href="#home" data-transition="none" data-icon="home">Home</a></li>
 				<li><a href="#startTracking" data-transition="none" data-icon="plus">Track Workout</a></li>
 				<li><a href="#history" data-transition="none" data-icon="star">History</a></li>
+				<li><a href="#home" data-transition="none" data-icon="home">Settings</a></li>
+				
+				
 			</ul>
 		</div>
 	</div>
